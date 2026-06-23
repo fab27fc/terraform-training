@@ -14,16 +14,18 @@ This lab creates a basic AWS network infrastructure using Terraform.
 - Route Table Association
 
 ## Architecture
-
+```text
 VPC
 ├── Public Subnet
 └── Private Subnet
-
+```
 ## Terraform Commands
 
+```bash
 terraform init
 terraform plan
 terraform apply
+```
 
 ## Learning Objectives
 
