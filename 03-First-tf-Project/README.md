@@ -96,7 +96,10 @@ terraform destroy
 
 ```text
 .
-├── main.tf
+├── providers.tf
+├── random.tf
+├── s3.tf
+├── outputs.tf
 └── README.md
 ```
 
@@ -122,6 +125,7 @@ terraform destroy
 ## Lessons Learned
 
 * Configure multiple Terraform providers.
+* Organize Terraform resources into separate files.
 * Create globally unique AWS resources using the Random provider.
 * Deploy infrastructure with Terraform.
 * Retrieve resource information using outputs.
@@ -132,5 +136,3 @@ terraform destroy
 ## Author
 
 **Fabián C.**
-
-* GitHub: https://github.com/fab27fc
